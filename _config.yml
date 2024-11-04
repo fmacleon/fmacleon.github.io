@@ -1,0 +1,25 @@
+site_name: Your Company Name
+logo_title: Robert J. Smith
+initials: YCN
+subtitle_1: Brief company description
+subtitle_2: >
+          We have the best rates and highest quality.<br>
+          Look no further, find us on social media.
+email_address: fmacleon@yahoo.com
+
+# Optional Links to Payment, Social Media, and Online Market Place Account Names
+venmo_acct: 3912414659610071279 
+facebook_username: ChrisKringlePhillyLLC 
+x-twitter_username: 
+github_username: fmacleon
+linkedin_username: frank-macleon-6a001b38
+instagram_username: 
+pinterest_username:   
+etsy_username: 
+youtube_username: 
+
+# SITE SETTINGS - EDIT THE FOLLOWING WITH CAUTION
+url: # custom URL example.com Remember to add a "CNAME" file if using a custom URL 
+
+theme: jekyll-theme-minimal
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "*.sh", "*.txt", "FML_notes"]
