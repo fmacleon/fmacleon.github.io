@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{site.initials}} - {{page.pageTitle}}</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/x-icon" href="{{site.url}}/favicon.ico">
   {% seo title=false %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
   </head>
@@ -16,12 +16,12 @@
       <header>
 
           <div class="logo_img">
-            <a href="{{site.baseurl}}/"><img src="logo.png" alt="Logo" /></a>
+            <a href="{{site.url}}/"><img src="{{site.url}}/logo.png" alt="Logo" /></a>
           </div>
 
 
-      <h3><a href="{{site.baseurl}}/">{{ site.logo_title }}</a></h3>
-      <h2><a href="{{site.baseurl}}/">{{ site.site_name }}</a></h2>
+      <h3><a href="{{site.url}}/">{{ site.logo_title }}</a></h3>
+      <h2><a href="{{site.url}}/">{{ site.site_name }}</a></h2>
       <h3>{{ site.subtitle_1}}</h3>
       <p>{{ site.subtitle_2}}</p>
 

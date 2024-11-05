@@ -21,5 +21,4 @@ youtube_username:
 # SITE SETTINGS - EDIT THE FOLLOWING WITH CAUTION
 url: # custom URL example.com Remember to add a "CNAME" file if using a custom URL 
 
-theme: jekyll-theme-minimal
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "*.sh", "*.txt", "FML_notes"]
