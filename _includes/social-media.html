@@ -1,5 +1,19 @@
+<!--
+##################################################################################
+##  {{site.time | date: '%Y'}} Copyright Frank MacLeon Consulting Services LLC  
+##################################################################################
+-->
+
+{% if site.paypalme_acct %}
+   <a href="https://paypal.me/{{ site.paypalme_acct }}?country.x=US&locale.x=en_US" target="_blank"><span title="Paypal"><i class="fa fa-paypal" style="font-size:4em" aria-hidden="true"></i></span></a><br>
+{%- else %}
+{% endif %}
+
+
 {% if site.venmo_acct %}
-  <a href="https://venmo.com/code?user_id={{site.venmo_acct}}" target="_blank" rel="noopener noreferrer"><img src="Venmo_Logo_Blue.png" alt="Venmo" style="padding-left: 2em; padding-right: 2em; padding-bottom: 2em; max-width:10em;"></a><br>
+  <div class="paymentService">
+    <a href="https://venmo.com/code?user_id={{site.venmo_acct}}" target="_blank" rel="noopener noreferrer"><img src="assets/Venmo_Logo_Blue.png" alt="Venmo" ></a><br>
+  </div>
 {%- else %}
 {% endif %}
 

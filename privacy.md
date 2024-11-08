@@ -1,6 +1,5 @@
 ---
 layout: panel
-pageTitle: Privacy Policy
 ---
 
 ## This is a test website template - not an actual working website. Edit this page to match your privacy policy notice. 
