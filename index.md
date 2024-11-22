@@ -3,7 +3,7 @@ layout: panel
 ---
 
 # Here is your product and service page
-You can explain why you deleiver the best customer service
+You can explain why you deliver the best customer service
 
 ![](photo1.jpg)
 
